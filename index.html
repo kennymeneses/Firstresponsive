@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/stylemain.css">
+    <link rel="stylesheet" href="styles/stylemain.css">
     <title>Inicio</title>
 </head>
 <body>
     
     <header class="main-header">
-
-        <img class="main-logo" src="/images/BBVA.png" alt="Logo header">
+        <div class="l-container main-header__block">
+            <img class="main-logo" src="images/BBVA.png" alt="Logo header">
+            <div class="main-menu-toggle" id="main-menu-toogle"></div>
+            <nav class="main-nav" id="main-nav">
+                <ul class="main-menu" >
+                    <li class="main-menu__item">
+                    <a class="main-menu__link" href="#">Campañas</a></li>
+                    <li class="main-menu__item">
+                    <a class="main-menu__link" href="#">Creditos</a></li>
+                    <li class="main-menu__item">
+                    <a class="main-menu__link" href="#">Locales</a></li>
+                </ul>
+            </nav>
+        </div>  
 
     </header>
 
@@ -29,6 +41,6 @@
 
     </footer>
 
-<script src="/scripts/scriptmain.js"></script>    
+<script src="scripts/scriptmain.js"></script>    
 </body>
 </html>
