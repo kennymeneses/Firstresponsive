@@ -18,19 +18,24 @@ img {
   border-bottom: 1px solid #CCC;
   position:fixed;
   z-index: 20;
-  display:flex; 
+
 }
 
 .l-container{
-    display:flex;
-    width: 100%;
-    height: 100%;
+    max-width: 1200px;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* margin-left: auto;
-    margin-right: auto; */
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    /* flex-wrap: wrap;  */
+
+}
+
+.main-header__block{
     justify-content: space-between;
-    background-color: red;
+    align-items: center;
+    height: 100%; 
 }
 
 .main-logo {
@@ -85,7 +90,8 @@ img {
 
 
 .main-menu-toggle{
-    margin-top:1.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 2.2rem;
     height: 1.6rem;
     background: linear-gradient(#141618 20%, transparent 20%, transparent 40%, #141618 40%, #141618 60%, transparent 60%, transparent 80%, #141618 80%);
