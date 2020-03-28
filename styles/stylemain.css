@@ -51,8 +51,6 @@ img {
     display:none
         
 }
-
-
 @media screen and (min-width:960px)
 {
     .main-logo1{
@@ -67,22 +65,56 @@ img {
     position:fixed;
     height: calc(100vh-4rem);
     width: 70vw;
-    background-color: pink;
+    background-color: white;
     top:4rem;
     right: 0;
     /* right: -70vw; */
     transition: right .4s;
     padding-top: 1rem;
     z-index:20;
+    
 }
 @media screen and (min-width:960px)
 {
     .main-nav{
      position:static;
-     background-color: brown;
+     background-color: white;
+     border:solid 1px black;
      padding-top: 0;
      width: 100%;
      display:flex;
+     
+    }
+}
+
+
+.logo-zone{
+    display:none;
+}
+@media screen and (min-width:960px)
+{
+    .logo-zone{
+        margin-left: 1rem;
+        display:flex;
+        width: 20%;
+        background-color: yellow;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.link_logo{
+    display:none;    
+}
+@media screen and (min-width: 960px)
+{
+    .link_logo{
+        display:block;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 }
 
@@ -101,6 +133,7 @@ img {
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
+        background-color: pink
     }
 }
 
@@ -123,4 +156,28 @@ img {
     .main-menu-toggle {
       display: none; 
     }     
+}
+
+.user-zone{
+    display:none
+}
+@media screen and (min-width:960px)
+{
+    .user-zone {
+        display:flex;
+        width: 20%;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 100%;
+        margin-right: 1rem;
+        background-color: yellow;
+    }
+}
+
+.user-logo{
+    height: 2rem;
+    width: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
