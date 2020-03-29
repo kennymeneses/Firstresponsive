@@ -9,7 +9,7 @@ hamburguesa.addEventListener('click',()=>{
             nav.style.right = "0"
         }
         else{
-            nav.style.right = "-262.5px"
+            nav.style.right = "-575.5px"
         }
 
     }
